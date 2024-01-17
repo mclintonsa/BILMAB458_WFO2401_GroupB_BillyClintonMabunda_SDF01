@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meow Awesome Portfolio Site 🚀</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th,
+      td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      img {
+        max-width: 100px;
+        max-height: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header and Navigation -->
+    <header>
+      <div class="profile-header">
+        <img src="images/cat-codespace.png" alt="Profile Picture" />
+        <h1>CodeSpace Cat's Portfolio 🎨</h1>
+      </div>
+      <div class="navigation-bar">
+        <nav>
+          <!-- Navigation Menu -->
+          <a href="#About-Me">About Me</a>
+          <a href="#Skills">Skills</a>
+          <a href="#Catfolio">Catfolio</a>
+          <a href="#Contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="About-Me">
+      <h2>About Me</h2>
+      <p>
+        Meow there CodeSpacers! 👋 I'm a coding cat dipping my furry paws into
+        the vast world of HTML. With a whisker-twitching curiosity and a tail-up
+        attitude, I'm on a mission to unravel the secrets of web development.
+        You'll often find me navigating through the HTML jungle, creating
+        structures that make websites purr-fectly functional and visually
+        appealing. My coding journey is just beginning, but I'm already crafting
+        simple markup like a pro—building the foundation for future
+        feline-friendly websites.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="Skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Attributes</li>
+        <li>Elements</li>
+        <li>Hyperlinks</li>
+        <li>Semantic HTML</li>
+        <li>HTML Template</li>
+      </ul>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="Catfolio">
+      <h2>Catfolio</h2>
+      <table>
+        <tr>
+          <th>Project</th>
+          <th>Description</th>
+          <th>Thumbnail</th>
+        </tr>
+
+        <tr>
+          <td>Catfolio</td>
+          <td>
+            Created a Catfolio website that showcases my skills, and projects.
+            Includes an "About Me" section, and a contact form.
+          </td>
+          <td><img src="images/1.png" alt="Thumbnail for Catfolio" /></td>
+        </tr>
+
+        <tr>
+          <td>Profile Picture</td>
+          <td>
+            Incorporated a profile picture within my HTML Catfolio using
+            provided images
+          </td>
+          <td>
+            <img src="images/2.png" alt="Thumbnail for Profile Picture" />
+          </td>
+        </tr>
+        <tr>
+          <td>Contact Form</td>
+          <td>Made a responsive contact form within my HTML</td>
+          <td><img src="images/3.png" alt="Thumbnail for Contact Form" /></td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="Contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          cols="50"
+          required
+        ></textarea
+        ><br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Cat Portfolio. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
